@@ -41,3 +41,34 @@
 
 </body>
 </html>
+
+
+
+.body{
+    margin:0;
+    }
+
+.products-list{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    margin:0;
+    padding: 20px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    row-gap: 30px;
+    column-gap: 20px;
+}
+
+
+.page-header{
+	padding: 20px;
+    padding-top:30px;
+    padding-bottom:70px ;
+	display: grid;
+	grid-template-columns:1fr 160px;
+	
+}
+.page-footer{
+    padding: 20px;
+    padding-top: 10px;
+}
